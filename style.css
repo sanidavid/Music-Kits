@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Freehand&family=Goblin+One&family=Jaini&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Pacifico&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Rubik+Wet+Paint&family=Sancreek&family=Supermercado+One&family=Telex&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(/Asset/one\ \(1\).jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.offcanvas {
+  background-color: rgb(132, 4, 4);
+}
+
+.navbar-toggler {
+  background-color: none !important;
+}
+
+.navbar-toggler-icon {
+  background-image: none !important; /* Removes the default icon */
+  background-color: white; /* Adds a custom red background for the hamburger lines */
+  width: 24px;
+  height: 3px;
+  display: inline-block;
+  position: relative;
+}
+
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after {
+  content: "";
+  width: 24px;
+  height: 3px;
+  background-color: white; /* Custom color for the lines */
+  position: absolute;
+  left: 0;
+}
+
+.navbar-toggler-icon::before {
+  top: -8px; /* Position of the top line */
+}
+
+.navbar-toggler-icon::after {
+  top: 8px; /* Position of the bottom line */
+}
+
+.btn-close {
+  color: white !important;
+  filter: brightness(2) invert(1); /* Makes the icon white */
+}
+
+.logo {
+  font-size: 1.3rem;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+.text-dark {
+  color: white !important;
+}
+
+.midi-kits .section-number {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.6);
+}
+.midi-kits h1 {
+  font-size: 4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  margin: 0;
+  color: white;
+  font-family: "Oswald", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.midi-kits .subtitle {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+.midi-kits .button-group a {
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 50px;
+  transition: background 0.3s, color 0.3s;
+}
+.midi-kits .button-group a:hover {
+  background: #fff;
+  color: #000;
+}
+
+.social a {
+  color: white !important;
+  font-size: 1.2rem;
+}/*# sourceMappingURL=style.css.map */
